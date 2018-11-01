@@ -1,0 +1,95 @@
+﻿<Window x:Class="SabTimer.RotationWeaver"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SabTimer"
+        mc:Ignorable="d"
+        Topmost="True"
+        WindowStartupLocation="Manual" 
+        Left="800" Top="0"
+        MouseDown="Window_MouseDown"
+         AllowsTransparency="True" WindowStyle="None"
+        Title="MainWindow" Height="200.812" Width="802.61">
+    <Window.Background>
+        <SolidColorBrush Opacity="100.0" Color="White"/>
+    </Window.Background>
+
+    <Grid>
+        <Label Content="Opener" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Background="White" FontWeight="Bold" Margin="0,10,541,167" Width="262"></Label>
+        <Image Height="33" Width="33"  Source="img/33px-Eruption.png" HorizontalAlignment="Left" Margin="-1,25,0,125"/>
+        <Image Height="33" Width="33" Margin="32,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="32,91,0,59" Source="img/33px-Pyroclastic_Blast.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="65,25,0,125" Source="img/33px-Air_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="65,58,0,92" Source="img/33px-Glyph_of_Storms.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="65,91,0,59" Source="img/33px-Meteor_Shower.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="131,25,0,125" Source="img/33px-Conjure_Lightning_Hammer.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="98,58,0,92" Source="img/33px-Plasma_Blast.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="131,58,0,92" Source="img/33px-Lightning_Storm_(Lightning_Hammer_skill).png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="131,91,0,59" Source="img/33px-Lightning_Swing.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="98,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="98,91,0,59" Source="img/33px-Lava_Font.png" RenderTransformOrigin="-6.568,2.578" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="131,124,0,26" Source="img/33px-Lightning_Swing.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="164,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="164,58,0,92" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="164,91,0,59" Source="img/33px-Flame_Burst.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="197,25,0,125" Source="img/33px-Earth_Attunement.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="197,58,0,92" Source="img/33px-Eruption.png" RenderTransformOrigin="-8.364,0.308" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="197,91,0,59" Source="img/33px-Pyroclastic_Blast.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="229,25,0,125" Source="img/33px-Conjure_Fiery_Greatsword.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="229,58,0,92" Source="img/33px-Fiery_Rush.png" RenderTransformOrigin="0.647,1.692" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="229,91,0,59" Source="img/33px-Firestorm.png" RenderTransformOrigin="0.647,1.692" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="229,124,0,26" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="164,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="32,58,0,92" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="334,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="334,58,0,92" Source="img/33px-Fireball.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="334,91,0,59" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="334,124,0,26" Source="img/33px-Flame_Burst.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="367,25,0,125" Source="img/33px-Earth_Attunement.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="367,58,0,92" Source="img/33px-Eruption.png" RenderTransformOrigin="-8.364,0.308" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="367,91,0,59" Source="img/33px-Meteor_Shower.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="400,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="400,58,0,92" Source="img/33px-Pyroclastic_Blast.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="400,91,0,59" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="433,25,0,125" Source="img/33px-Conjure_Lightning_Hammer.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="433,58,0,92" Source="img/33px-Lightning_Storm_(Lightning_Hammer_skill).png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="433,91,0,59" Source="img/33px-Lightning_Swing.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="433,124,0,26" Source="img/33px-Lightning_Swing.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="466,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="466,58,0,92" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="466,91,0,59" Source="img/33px-Flame_Burst.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="499,25,0,125" Source="img/33px-Earth_Attunement.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="499,58,0,92" Source="img/33px-Eruption.png" RenderTransformOrigin="-8.364,0.308" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="532,25,0,125" Source="img/33px-Conjure_Fiery_Greatsword.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="532,58,0,92" Source="img/33px-Fiery_Rush.png" RenderTransformOrigin="0.647,1.692" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="532,91,0,59" Source="img/33px-Firestorm.png" RenderTransformOrigin="0.647,1.692" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="565,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="565,91,0,59" Source="img/33px-Pyroclastic_Blast.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="565,58,0,92" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="598,25,0,125" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="598,58,0,92" Source="img/33px-Fireball.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="598,91,0,59" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="598,124,0,26" Source="img/33px-Flame_Burst.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="631,25,0,125" Source="img/33px-Air_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="631,58,0,92" Source="img/33px-Chain_Lightning.png" HorizontalAlignment="Left" RenderTransformOrigin="0.897,1.441"/>
+        <Image Height="33" Width="33" Margin="631,91,0,59" Source="img/33px-Plasma_Blast.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="631,124,0,26" Source="img/33px-Glyph_of_Storms.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="631,157,0,-7" Source="img/33px-Meteor_Shower.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="664,34,0,134" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="664,67,0,101" Source="img/33px-Conjure_Lightning_Hammer.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="664,100,0,68" Source="img/33px-Lightning_Storm_(Lightning_Hammer_skill).png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="664,133,0,35" Source="img/33px-Lightning_Swing.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="664,166,0,2" Source="img/33px-Lightning_Swing.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="697,34,0,134" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="697,67,0,101" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="697,100,0,68" Source="img/33px-Flame_Burst.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="730,34,0,134" Source="img/33px-Earth_Attunement.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="730,67,0,101" Source="img/33px-Eruption.png" RenderTransformOrigin="-8.364,0.308" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="730,100,0,68" Source="img/33px-Pyroclastic_Blast.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="763,34,0,134" Source="img/33px-Fire_Attunement.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="763,67,0,101" Source="img/33px-Fireball.png" HorizontalAlignment="Left"/>
+        <Image Height="33" Width="33" Margin="763,100,0,68" Source="img/33px-Lava_Font.png" RenderTransformOrigin="0.949,0.531" HorizontalAlignment="Left"/>
+        <Label Content="Loop Rotation" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Background="White" FontWeight="Bold" Margin="334,10,7,167" Width="462"/>
+    </Grid>
+</Window>
